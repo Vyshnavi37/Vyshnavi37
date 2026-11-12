@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Vyshnavi Medipelli — Full-Stack Developer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070d18"/>
+      <stop offset="0.55" stop-color="#13213a"/>
+      <stop offset="1" stop-color="#1f3253"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#dfe9f7" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#dfe9f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cloak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3a55"/>
+      <stop offset="1" stop-color="#121b2b"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9fb3c8"/>
+      <stop offset="0.5" stop-color="#e6edf6"/>
+      <stop offset="1" stop-color="#7d8fa6"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070d18" stop-opacity="0"/>
+      <stop offset="1" stop-color="#070d18" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect width="1200" height="400" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#cfdcef">
+    <circle cx="90" cy="40" r="1.2" opacity=".8"/><circle cx="210" cy="75" r="1" opacity=".6"/>
+    <circle cx="330" cy="30" r="1.3" opacity=".7"/><circle cx="470" cy="60" r="1" opacity=".5"/>
+    <circle cx="610" cy="25" r="1.2" opacity=".8"/><circle cx="700" cy="70" r="1" opacity=".6"/>
+    <circle cx="990" cy="35" r="1.3" opacity=".7"/><circle cx="1080" cy="80" r="1" opacity=".5"/>
+    <circle cx="1150" cy="30" r="1.1" opacity=".8"/><circle cx="760" cy="40" r="1" opacity=".5">
+      <animate attributeName="opacity" values=".2;.9;.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="95" r="1" opacity=".5">
+      <animate attributeName="opacity" values=".9;.2;.9" dur="5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- moon -->
+  <circle cx="900" cy="95" r="90" fill="url(#moonGlow)"/>
+  <circle cx="900" cy="95" r="36" fill="#e8eef7"/>
+  <circle cx="888" cy="86" r="6" fill="#d3deec"/><circle cx="912" cy="104" r="4" fill="#d3deec"/>
+
+  <!-- far mountains -->
+  <polygon points="0,300 120,215 230,280 360,200 480,275 600,210 720,270 840,195 960,265 1080,205 1200,260 1200,400 0,400" fill="#18263f"/>
+    <polyline points="820,209 840,195 860,209" fill="none" stroke="#c9d6e6" stroke-width="3" opacity=".55"/>
+
+  <!-- castle (right) -->
+  <g fill="#0d1626">
+    <rect x="860" y="215" width="40" height="120"/>
+    <rect x="860" y="205" width="10" height="12"/><rect x="875" y="205" width="10" height="12"/><rect x="890" y="205" width="10" height="12"/>
+    <rect x="900" y="250" width="120" height="85"/>
+    <rect x="1020" y="185" width="46" height="150"/>
+    <rect x="1020" y="175" width="11" height="12"/><rect x="1037" y="175" width="11" height="12"/><rect x="1055" y="175" width="11" height="12"/>
+    <polygon points="1016,185 1043,145 1070,185"/>
+    <rect x="1066" y="240" width="80" height="95"/>
+    <rect x="1140" y="210" width="34" height="125"/>
+    <polygon points="1136,210 1157,178 1178,210"/>
+  </g>
+  <!-- castle windows: tiny code glyphs -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#f2c46d" opacity=".9">
+    <text x="868" y="250">&lt;/&gt;</text>
+    <text x="1030" y="225">{ }</text>
+    <text x="1080" y="280">=&gt;</text>
+    <text x="1148" y="250">;</text>
+    <text x="935" y="290">git</text>
+  </g>
+
+  <g transform="translate(50,0)">
+  <!-- near cliff with snow -->
+  <polygon points="430,400 470,330 540,312 640,318 720,340 760,400" fill="#0a111d"/>
+  <path d="M470,330 Q505,316 540,312 Q590,309 640,318 Q690,326 720,340" fill="none" stroke="#d7e2f0" stroke-width="5" stroke-linecap="round" opacity=".85"/>
+
+  <!-- girl seen from behind: hooded cloak, sword at her side -->
+  <g>
+    <!-- sword (behind cloak edge, hanging at left hip) -->
+    <rect x="551" y="232" width="4" height="86" rx="1" fill="url(#steel)" transform="rotate(8 553 232)"/>
+    <rect x="541" y="228" width="24" height="4" rx="2" fill="#8c9cb2" transform="rotate(8 553 232)"/>
+    <rect x="550" y="214" width="6" height="16" rx="2" fill="#4a3a2a" transform="rotate(8 553 232)"/>
+    <circle cx="553" cy="212" r="3.5" fill="#8c9cb2"/>
+    <!-- cloak body, wind blowing to the right -->
+    <path d="M585,190 C566,198 556,230 552,262 C548,290 548,305 546,318 L640,318 C650,300 664,292 676,286 C650,282 632,262 626,236 C620,212 605,194 585,190 Z" fill="url(#cloak)"/>
+    <!-- cloak fold highlights -->
+    <path d="M592,208 C588,240 586,280 584,316" fill="none" stroke="#3b4e6e" stroke-width="2" opacity=".8"/>
+    <path d="M610,214 C612,250 616,288 618,316" fill="none" stroke="#3b4e6e" stroke-width="2" opacity=".7"/>
+    <!-- fur collar on shoulders -->
+    <path d="M566,206 C578,196 600,194 616,204 C606,212 578,214 566,206 Z" fill="#8090a6"/>
+    <!-- hood -->
+    <path d="M572,200 C570,176 582,158 595,154 C609,158 618,174 616,200 C606,206 584,206 572,200 Z" fill="#22314a"/>
+    <path d="M595,154 C601,166 604,182 603,200" fill="none" stroke="#3b4e6e" stroke-width="2"/>
+    <!-- boots peeking out -->
+    <rect x="572" y="314" width="12" height="6" rx="2" fill="#151d2c"/>
+    <rect x="600" y="314" width="12" height="6" rx="2" fill="#151d2c"/>
+  </g>
+
+  </g>
+
+  <!-- left text block -->
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <!-- original crest -->
+    <g transform="translate(60,62)">
+      <path d="M0,0 H44 V26 C44,42 32,52 22,56 C12,52 0,42 0,26 Z" fill="#13213a" stroke="#9fb3c8" stroke-width="2"/>
+      <text x="22" y="34" text-anchor="middle" font-size="17" fill="#e6edf6" letter-spacing="1">VM</text>
+    </g>
+    <text x="118" y="88" font-size="13" letter-spacing="5" fill="#9fb3c8">BUILD · SECURE · SHIP</text>
+    <text x="60" y="168" font-size="50" letter-spacing="6" fill="#eef3fa">VYSHNAVI</text>
+    <text x="60" y="222" font-size="50" letter-spacing="6" fill="#eef3fa">MEDIPELLI</text>
+    <rect x="60" y="242" width="300" height="2" fill="url(#steel)" opacity=".8"/>
+    <text x="60" y="276" font-size="20" fill="#cdd9e8" font-style="italic">Full-Stack Developer · SecurEyes</text>
+    <text x="60" y="310" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#8fa5c0">React · Vue · NestJS · TypeScript · PostgreSQL</text>
+  </g>
+
+  <!-- bottom fade -->
+  <rect y="330" width="1200" height="70" fill="url(#fade)"/>
+
+  <!-- falling snow -->
+  <g fill="#ffffff">
+    <circle cx="40" r="2" opacity=".8"><animate attributeName="cy" from="-10" to="410" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="140" r="1.5" opacity=".7"><animate attributeName="cy" from="-10" to="410" dur="11s" begin="-3s" repeatCount="indefinite"/></circle>
+    <circle cx="250" r="2.2" opacity=".8"><animate attributeName="cy" from="-10" to="410" dur="8s" begin="-5s" repeatCount="indefinite"/></circle>
+    <circle cx="330" r="1.4" opacity=".6"><animate attributeName="cy" from="-10" to="410" dur="12s" begin="-1s" repeatCount="indefinite"/></circle>
+    <circle cx="420" r="1.8" opacity=".8"><animate attributeName="cy" from="-10" to="410" dur="10s" begin="-7s" repeatCount="indefinite"/></circle>
+    <circle cx="500" r="1.3" opacity=".6"><animate attributeName="cy" from="-10" to="410" dur="13s" begin="-4s" repeatCount="indefinite"/></circle>
+    <circle cx="580" r="2" opacity=".8"><animate attributeName="cy" from="-10" to="410" dur="9.5s" begin="-6s" repeatCount="indefinite"/></circle>
+    <circle cx="660" r="1.5" opacity=".7"><animate attributeName="cy" from="-10" to="410" dur="11.5s" begin="-2s" repeatCount="indefinite"/></circle>
+    <circle cx="740" r="2.3" opacity=".8"><animate attributeName="cy" from="-10" to="410" dur="8.5s" begin="-8s" repeatCount="indefinite"/></circle>
+    <circle cx="820" r="1.4" opacity=".6"><animate attributeName="cy" from="-10" to="410" dur="12.5s" begin="-5s" repeatCount="indefinite"/></circle>
+    <circle cx="900" r="1.8" opacity=".7"><animate attributeName="cy" from="-10" to="410" dur="10.5s" begin="-3s" repeatCount="indefinite"/></circle>
+    <circle cx="980" r="2" opacity=".8"><animate attributeName="cy" from="-10" to="410" dur="9s" begin="-6.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1060" r="1.5" opacity=".7"><animate attributeName="cy" from="-10" to="410" dur="11s" begin="-1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1140" r="2.1" opacity=".8"><animate attributeName="cy" from="-10" to="410" dur="10s" begin="-4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="190" r="1.2" opacity=".5"><animate attributeName="cy" from="-10" to="410" dur="14s" begin="-9s" repeatCount="indefinite"/></circle>
+    <circle cx="700" r="1.2" opacity=".5"><animate attributeName="cy" from="-10" to="410" dur="14s" begin="-10s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
