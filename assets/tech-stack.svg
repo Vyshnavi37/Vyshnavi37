@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="488" viewBox="0 0 900 488" role="img" aria-label="Tech stack: React, Vue, NestJS, Node.js, TypeScript, PostgreSQL, Docker, Azure and more">
+
+<style>
+  .t  { font-family: Georgia, 'Times New Roman', serif; fill:#eef3fa; letter-spacing:4px; }
+  .k  { font-family: Georgia, 'Times New Roman', serif; fill:#9fb3c8; letter-spacing:3px; }
+  .b  { font-family: Georgia, 'Times New Roman', serif; fill:#cdd9e8; }
+  .m  { font-family: Consolas, 'Courier New', monospace; fill:#dbe6f3; }
+  .rise { opacity:0; animation: rise .9s cubic-bezier(.2,.8,.2,1) forwards; }
+  @keyframes rise { from { opacity:0; transform: translateY(18px);} to { opacity:1; transform: translateY(0);} }
+  .draw { stroke-dasharray: 600; stroke-dashoffset: 600; animation: draw 1.6s ease forwards .2s; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  .chip rect { fill:#16243c; stroke:#3b5272; }
+  .chip:hover rect { stroke:#cfe0f5; }
+  .glow { animation: glow 3.2s ease-in-out infinite; }
+  @keyframes glow { 0%,100% { stroke-opacity:.35; } 50% { stroke-opacity:1; } }
+  .shine { animation: shine 5s ease-in-out infinite; }
+  @keyframes shine { 0% { transform: translateX(-200px);} 60%,100% { transform: translateX(1100px);} }
+  .flicker { animation: flicker 2.6s ease-in-out infinite; }
+  @keyframes flicker { 0%,100% { opacity:.55;} 50% { opacity:1;} }
+</style>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0a1222"/><stop offset="1" stop-color="#14223b"/>
+  </linearGradient>
+  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#9fb3c8" stop-opacity="0"/><stop offset=".5" stop-color="#e6edf6"/><stop offset="1" stop-color="#9fb3c8" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".10"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#13213a"/><stop offset="1" stop-color="#0d1729"/>
+  </linearGradient>
+</defs>
+<rect width="900" height="488" rx="16" fill="url(#bg)"/>
+<rect class="shine" x="0" y="0" width="160" height="488" fill="url(#sheen)"/>
+
+<g class="rise" style="animation-delay:.05s">
+  <text x="450.0" y="36" text-anchor="middle" class="k" font-size="12">TECH STACK</text>
+  <text x="450.0" y="62" text-anchor="middle" class="t" font-size="26">THE ARSENAL</text>
+</g>
+<path class="draw" d="M280.0,78 H620.0" stroke="url(#steel)" stroke-width="2" fill="none"/>
+<g class="flicker" fill="#cfe0f5"><path d="M450.0,72 l5,6 l-5,6 l-5,-6 z"/></g>
+
+<g class="rise" style="animation-delay:0.35s">
+  <rect x="30" y="98" width="840" height="78" rx="12" fill="url(#card)" stroke="#2c405e"/>
+  <rect class="glow" x="30" y="98" width="840" height="78" rx="12" fill="none" stroke="#7fa3cc" stroke-width="1"/>
+  <text x="58" y="126" font-size="18" fill="#cfe0f5">⚔</text>
+  <text x="86" y="126" class="b" font-size="17" letter-spacing="1">Frontend</text>
+  <path d="M230,110 V164" stroke="#2c405e"/>
+</g>
+<g class="chip rise" style="animation-delay:0.45s"><rect x="250" y="107" width="62" height="26" rx="13"/><text x="281.0" y="125" text-anchor="middle" class="m" font-size="13.5">React</text></g>
+<g class="chip rise" style="animation-delay:0.51s"><rect x="322" y="107" width="70" height="26" rx="13"/><text x="357.0" y="125" text-anchor="middle" class="m" font-size="13.5">Vue.js</text></g>
+<g class="chip rise" style="animation-delay:0.57s"><rect x="402" y="107" width="78" height="26" rx="13"/><text x="441.0" y="125" text-anchor="middle" class="m" font-size="13.5">Vuetify</text></g>
+<g class="chip rise" style="animation-delay:0.63s"><rect x="490" y="107" width="103" height="26" rx="13"/><text x="541.5" y="125" text-anchor="middle" class="m" font-size="13.5">TypeScript</text></g>
+<g class="chip rise" style="animation-delay:0.69s"><rect x="603" y="107" width="103" height="26" rx="13"/><text x="654.5" y="125" text-anchor="middle" class="m" font-size="13.5">JavaScript</text></g>
+<g class="chip rise" style="animation-delay:0.75s"><rect x="716" y="107" width="119" height="26" rx="13"/><text x="775.5" y="125" text-anchor="middle" class="m" font-size="13.5">React Native</text></g>
+<g class="chip rise" style="animation-delay:0.81s"><rect x="250" y="141" width="86" height="26" rx="13"/><text x="293.0" y="159" text-anchor="middle" class="m" font-size="13.5">Electron</text></g>
+<g class="chip rise" style="animation-delay:0.87s"><rect x="346" y="141" width="62" height="26" rx="13"/><text x="377.0" y="159" text-anchor="middle" class="m" font-size="13.5">HTML5</text></g>
+<g class="chip rise" style="animation-delay:0.93s"><rect x="418" y="141" width="54" height="26" rx="13"/><text x="445.0" y="159" text-anchor="middle" class="m" font-size="13.5">CSS3</text></g>
+<g class="rise" style="animation-delay:0.70s">
+  <rect x="30" y="190" width="840" height="78" rx="12" fill="url(#card)" stroke="#2c405e"/>
+  <rect class="glow" x="30" y="190" width="840" height="78" rx="12" fill="none" stroke="#7fa3cc" stroke-width="1"/>
+  <text x="58" y="218" font-size="18" fill="#cfe0f5">⚙</text>
+  <text x="86" y="218" class="b" font-size="17" letter-spacing="1">Backend</text>
+  <path d="M230,202 V256" stroke="#2c405e"/>
+</g>
+<g class="chip rise" style="animation-delay:0.80s"><rect x="250" y="199" width="78" height="26" rx="13"/><text x="289.0" y="217" text-anchor="middle" class="m" font-size="13.5">Node.js</text></g>
+<g class="chip rise" style="animation-delay:0.86s"><rect x="338" y="199" width="70" height="26" rx="13"/><text x="373.0" y="217" text-anchor="middle" class="m" font-size="13.5">NestJS</text></g>
+<g class="chip rise" style="animation-delay:0.92s"><rect x="418" y="199" width="78" height="26" rx="13"/><text x="457.0" y="217" text-anchor="middle" class="m" font-size="13.5">Express</text></g>
+<g class="chip rise" style="animation-delay:0.98s"><rect x="506" y="199" width="94" height="26" rx="13"/><text x="553.0" y="217" text-anchor="middle" class="m" font-size="13.5">REST APIs</text></g>
+<g class="chip rise" style="animation-delay:1.04s"><rect x="610" y="199" width="78" height="26" rx="13"/><text x="649.0" y="217" text-anchor="middle" class="m" font-size="13.5">GraphQL</text></g>
+<g class="chip rise" style="animation-delay:1.10s"><rect x="698" y="199" width="111" height="26" rx="13"/><text x="753.5" y="217" text-anchor="middle" class="m" font-size="13.5">Spring Boot</text></g>
+<g class="chip rise" style="animation-delay:1.16s"><rect x="250" y="233" width="70" height="26" rx="13"/><text x="285.0" y="251" text-anchor="middle" class="m" font-size="13.5">Django</text></g>
+<g class="chip rise" style="animation-delay:1.22s"><rect x="330" y="233" width="62" height="26" rx="13"/><text x="361.0" y="251" text-anchor="middle" class="m" font-size="13.5">Flask</text></g>
+<g class="rise" style="animation-delay:1.05s">
+  <rect x="30" y="282" width="840" height="44" rx="12" fill="url(#card)" stroke="#2c405e"/>
+  <rect class="glow" x="30" y="282" width="840" height="44" rx="12" fill="none" stroke="#7fa3cc" stroke-width="1"/>
+  <text x="58" y="310" font-size="18" fill="#cfe0f5">◈</text>
+  <text x="86" y="310" class="b" font-size="17" letter-spacing="1">Data</text>
+  <path d="M230,294 V314" stroke="#2c405e"/>
+</g>
+<g class="chip rise" style="animation-delay:1.15s"><rect x="250" y="291" width="103" height="26" rx="13"/><text x="301.5" y="309" text-anchor="middle" class="m" font-size="13.5">PostgreSQL</text></g>
+<g class="chip rise" style="animation-delay:1.21s"><rect x="363" y="291" width="70" height="26" rx="13"/><text x="398.0" y="309" text-anchor="middle" class="m" font-size="13.5">Prisma</text></g>
+<g class="chip rise" style="animation-delay:1.27s"><rect x="443" y="291" width="62" height="26" rx="13"/><text x="474.0" y="309" text-anchor="middle" class="m" font-size="13.5">MySQL</text></g>
+<g class="chip rise" style="animation-delay:1.33s"><rect x="515" y="291" width="78" height="26" rx="13"/><text x="554.0" y="309" text-anchor="middle" class="m" font-size="13.5">MongoDB</text></g>
+<g class="chip rise" style="animation-delay:1.39s"><rect x="603" y="291" width="62" height="26" rx="13"/><text x="634.0" y="309" text-anchor="middle" class="m" font-size="13.5">Redis</text></g>
+<g class="rise" style="animation-delay:1.40s">
+  <rect x="30" y="340" width="840" height="44" rx="12" fill="url(#card)" stroke="#2c405e"/>
+  <rect class="glow" x="30" y="340" width="840" height="44" rx="12" fill="none" stroke="#7fa3cc" stroke-width="1"/>
+  <text x="58" y="368" font-size="18" fill="#cfe0f5">☁</text>
+  <text x="86" y="368" class="b" font-size="17" letter-spacing="1">Cloud &amp; DevOps</text>
+  <path d="M230,352 V372" stroke="#2c405e"/>
+</g>
+<g class="chip rise" style="animation-delay:1.50s"><rect x="250" y="349" width="70" height="26" rx="13"/><text x="285.0" y="367" text-anchor="middle" class="m" font-size="13.5">Docker</text></g>
+<g class="chip rise" style="animation-delay:1.56s"><rect x="330" y="349" width="46" height="26" rx="13"/><text x="353.0" y="367" text-anchor="middle" class="m" font-size="13.5">AWS</text></g>
+<g class="chip rise" style="animation-delay:1.62s"><rect x="386" y="349" width="62" height="26" rx="13"/><text x="417.0" y="367" text-anchor="middle" class="m" font-size="13.5">Azure</text></g>
+<g class="chip rise" style="animation-delay:1.68s"><rect x="458" y="349" width="103" height="26" rx="13"/><text x="509.5" y="367" text-anchor="middle" class="m" font-size="13.5">Kubernetes</text></g>
+<g class="chip rise" style="animation-delay:1.74s"><rect x="571" y="349" width="62" height="26" rx="13"/><text x="602.0" y="367" text-anchor="middle" class="m" font-size="13.5">CI/CD</text></g>
+<g class="chip rise" style="animation-delay:1.80s"><rect x="643" y="349" width="46" height="26" rx="13"/><text x="666.0" y="367" text-anchor="middle" class="m" font-size="13.5">Git</text></g>
+<g class="rise" style="animation-delay:1.75s">
+  <rect x="30" y="398" width="840" height="44" rx="12" fill="url(#card)" stroke="#2c405e"/>
+  <rect class="glow" x="30" y="398" width="840" height="44" rx="12" fill="none" stroke="#7fa3cc" stroke-width="1"/>
+  <text x="58" y="426" font-size="18" fill="#cfe0f5">✦</text>
+  <text x="86" y="426" class="b" font-size="17" letter-spacing="1">Security</text>
+  <path d="M230,410 V430" stroke="#2c405e"/>
+</g>
+<g class="chip rise" style="animation-delay:1.85s"><rect x="250" y="407" width="46" height="26" rx="13"/><text x="273.0" y="425" text-anchor="middle" class="m" font-size="13.5">JWT</text></g>
+<g class="chip rise" style="animation-delay:1.91s"><rect x="306" y="407" width="135" height="26" rx="13"/><text x="373.5" y="425" text-anchor="middle" class="m" font-size="13.5">SSO · Entra ID</text></g>
+<g class="chip rise" style="animation-delay:1.97s"><rect x="451" y="407" width="54" height="26" rx="13"/><text x="478.0" y="425" text-anchor="middle" class="m" font-size="13.5">RBAC</text></g>
+<g class="chip rise" style="animation-delay:2.03s"><rect x="515" y="407" width="159" height="26" rx="13"/><text x="594.5" y="425" text-anchor="middle" class="m" font-size="13.5">Secure API design</text></g>
+<g fill="#ffffff">
+<circle cx="341" r="2.1" opacity="0.72"><animate attributeName="cy" from="-10" to="498" dur="10.4s" begin="-0.7s" repeatCount="indefinite"/><animate attributeName="cx" values="341;353;341" dur="5.2s" repeatCount="indefinite"/></circle>
+<circle cx="106" r="1.4" opacity="0.37"><animate attributeName="cy" from="-10" to="498" dur="8.3s" begin="-7.1s" repeatCount="indefinite"/><animate attributeName="cx" values="106;118;106" dur="4.15s" repeatCount="indefinite"/></circle>
+<circle cx="454" r="1.5" opacity="0.38"><animate attributeName="cy" from="-10" to="498" dur="9.4s" begin="-7.7s" repeatCount="indefinite"/><animate attributeName="cx" values="454;466;454" dur="4.7s" repeatCount="indefinite"/></circle>
+<circle cx="589" r="1.1" opacity="0.78"><animate attributeName="cy" from="-10" to="498" dur="9.3s" begin="-8.8s" repeatCount="indefinite"/><animate attributeName="cx" values="589;601;589" dur="4.65s" repeatCount="indefinite"/></circle>
+<circle cx="600" r="1.7" opacity="0.6"><animate attributeName="cy" from="-10" to="498" dur="8.3s" begin="-3.1s" repeatCount="indefinite"/><animate attributeName="cx" values="600;612;600" dur="4.15s" repeatCount="indefinite"/></circle>
+<circle cx="146" r="1.3" opacity="0.49"><animate attributeName="cy" from="-10" to="498" dur="8.9s" begin="-1.6s" repeatCount="indefinite"/><animate attributeName="cx" values="146;158;146" dur="4.45s" repeatCount="indefinite"/></circle>
+<circle cx="845" r="1.8" opacity="0.43"><animate attributeName="cy" from="-10" to="498" dur="8.6s" begin="-8.0s" repeatCount="indefinite"/><animate attributeName="cx" values="845;857;845" dur="4.3s" repeatCount="indefinite"/></circle>
+<circle cx="109" r="1.7" opacity="0.44"><animate attributeName="cy" from="-10" to="498" dur="8.4s" begin="-0.8s" repeatCount="indefinite"/><animate attributeName="cx" values="109;121;109" dur="4.2s" repeatCount="indefinite"/></circle>
+<circle cx="706" r="1.6" opacity="0.77"><animate attributeName="cy" from="-10" to="498" dur="12.7s" begin="-6.5s" repeatCount="indefinite"/><animate attributeName="cx" values="706;718;706" dur="6.35s" repeatCount="indefinite"/></circle>
+<circle cx="380" r="1.4" opacity="0.46"><animate attributeName="cy" from="-10" to="498" dur="12.8s" begin="-9.8s" repeatCount="indefinite"/><animate attributeName="cx" values="380;392;380" dur="6.4s" repeatCount="indefinite"/></circle>
+<circle cx="598" r="1.4" opacity="0.55"><animate attributeName="cy" from="-10" to="498" dur="11.0s" begin="-4.8s" repeatCount="indefinite"/><animate attributeName="cx" values="598;610;598" dur="5.5s" repeatCount="indefinite"/></circle>
+<circle cx="633" r="2.2" opacity="0.69"><animate attributeName="cy" from="-10" to="498" dur="8.7s" begin="-5.9s" repeatCount="indefinite"/><animate attributeName="cx" values="633;645;633" dur="4.35s" repeatCount="indefinite"/></circle>
+<circle cx="165" r="2.1" opacity="0.38"><animate attributeName="cy" from="-10" to="498" dur="10.5s" begin="-13.5s" repeatCount="indefinite"/><animate attributeName="cx" values="165;177;165" dur="5.25s" repeatCount="indefinite"/></circle>
+<circle cx="581" r="1.7" opacity="0.66"><animate attributeName="cy" from="-10" to="498" dur="13.3s" begin="-4.4s" repeatCount="indefinite"/><animate attributeName="cx" values="581;593;581" dur="6.65s" repeatCount="indefinite"/></circle>
+<circle cx="618" r="1.6" opacity="0.39"><animate attributeName="cy" from="-10" to="498" dur="12.8s" begin="-1.0s" repeatCount="indefinite"/><animate attributeName="cx" values="618;630;618" dur="6.4s" repeatCount="indefinite"/></circle>
+<circle cx="286" r="1.6" opacity="0.67"><animate attributeName="cy" from="-10" to="498" dur="12.0s" begin="-0.8s" repeatCount="indefinite"/><animate attributeName="cx" values="286;298;286" dur="6.0s" repeatCount="indefinite"/></circle>
+<circle cx="672" r="1.7" opacity="0.67"><animate attributeName="cy" from="-10" to="498" dur="12.1s" begin="-6.2s" repeatCount="indefinite"/><animate attributeName="cx" values="672;684;672" dur="6.05s" repeatCount="indefinite"/></circle>
+<circle cx="694" r="1.4" opacity="0.62"><animate attributeName="cy" from="-10" to="498" dur="13.6s" begin="-5.0s" repeatCount="indefinite"/><animate attributeName="cx" values="694;706;694" dur="6.8s" repeatCount="indefinite"/></circle>
+</g>
+</svg>

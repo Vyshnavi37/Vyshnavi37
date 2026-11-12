@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="654" viewBox="0 0 900 654" role="img" aria-label="What I've built at work: KyArena (sole developer), K2 Suite ERP for 500+ employees, CompTrac GRC compliance tracker">
+
+<style>
+  .t  { font-family: Georgia, 'Times New Roman', serif; fill:#eef3fa; letter-spacing:4px; }
+  .k  { font-family: Georgia, 'Times New Roman', serif; fill:#9fb3c8; letter-spacing:3px; }
+  .b  { font-family: Georgia, 'Times New Roman', serif; fill:#cdd9e8; }
+  .m  { font-family: Consolas, 'Courier New', monospace; fill:#dbe6f3; }
+  .rise { opacity:0; animation: rise .9s cubic-bezier(.2,.8,.2,1) forwards; }
+  @keyframes rise { from { opacity:0; transform: translateY(18px);} to { opacity:1; transform: translateY(0);} }
+  .draw { stroke-dasharray: 600; stroke-dashoffset: 600; animation: draw 1.6s ease forwards .2s; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  .chip rect { fill:#16243c; stroke:#3b5272; }
+  .chip:hover rect { stroke:#cfe0f5; }
+  .glow { animation: glow 3.2s ease-in-out infinite; }
+  @keyframes glow { 0%,100% { stroke-opacity:.35; } 50% { stroke-opacity:1; } }
+  .shine { animation: shine 5s ease-in-out infinite; }
+  @keyframes shine { 0% { transform: translateX(-200px);} 60%,100% { transform: translateX(1100px);} }
+  .flicker { animation: flicker 2.6s ease-in-out infinite; }
+  @keyframes flicker { 0%,100% { opacity:.55;} 50% { opacity:1;} }
+</style>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0a1222"/><stop offset="1" stop-color="#14223b"/>
+  </linearGradient>
+  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#9fb3c8" stop-opacity="0"/><stop offset=".5" stop-color="#e6edf6"/><stop offset="1" stop-color="#9fb3c8" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".10"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#13213a"/><stop offset="1" stop-color="#0d1729"/>
+  </linearGradient>
+</defs>
+<rect width="900" height="654" rx="16" fill="url(#bg)"/>
+<rect class="shine" x="0" y="0" width="160" height="654" fill="url(#sheen)"/>
+
+<g class="rise" style="animation-delay:.05s">
+  <text x="450.0" y="36" text-anchor="middle" class="k" font-size="12">WHAT I&#x27;VE BUILT AT WORK</text>
+  <text x="450.0" y="62" text-anchor="middle" class="t" font-size="26">CONQUESTS</text>
+</g>
+<path class="draw" d="M280.0,78 H620.0" stroke="url(#steel)" stroke-width="2" fill="none"/>
+<g class="flicker" fill="#cfe0f5"><path d="M450.0,72 l5,6 l-5,6 l-5,-6 z"/></g>
+
+<g class="rise" style="animation-delay:0.35s">
+  <rect x="30" y="110" width="840" height="150" rx="14" fill="url(#card)" stroke="#2c405e"/>
+  <rect class="glow" x="30" y="110" width="840" height="150" rx="14" fill="none" stroke="#7fa3cc"/>
+  <circle cx="98" cy="185.0" r="46" fill="#0b1424" stroke="#3b5272"/>
+  <g transform="translate(98,181.0)" fill="none" stroke="#cfe0f5" stroke-width="2"><path d="M-14,30 V-6 H14 V30 Z"/><path d="M-18,-6 H18 L0,-28 Z"/><rect x="-4" y="8" width="8" height="12" fill="#f2c46d" stroke="none" class="flicker"/></g>
+  <text x="170" y="148" class="t" font-size="22">KYARENA</text>
+  <text x="328" y="148" class="k" font-size="13" letter-spacing="1">· Training &amp; Hiring Platform</text>
+  <rect x="720" y="128" width="120" height="24" rx="12" fill="#2a1f0f" stroke="#f2c46d"/>
+  <text x="780.0" y="144" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#f2c46d">SOLE DEVELOPER</text>
+  <text x="170" y="176" class="b" font-size="14.5">Internal Coursera-style platform SecurEyes uses to train and hire students.</text>
+  <text x="170" y="198" class="b" font-size="14.5">22 modules · proctored exams · 61 cybersecurity labs · live classes · SSO.</text>
+</g>
+<g class="chip rise" style="animation-delay:0.60s"><rect x="170" y="209" width="62" height="26" rx="13"/><text x="201.0" y="227" text-anchor="middle" class="m" font-size="13.5">React</text></g>
+<g class="chip rise" style="animation-delay:0.66s"><rect x="242" y="209" width="70" height="26" rx="13"/><text x="277.0" y="227" text-anchor="middle" class="m" font-size="13.5">NestJS</text></g>
+<g class="chip rise" style="animation-delay:0.72s"><rect x="322" y="209" width="103" height="26" rx="13"/><text x="373.5" y="227" text-anchor="middle" class="m" font-size="13.5">PostgreSQL</text></g>
+<g class="chip rise" style="animation-delay:0.78s"><rect x="435" y="209" width="70" height="26" rx="13"/><text x="470.0" y="227" text-anchor="middle" class="m" font-size="13.5">Prisma</text></g>
+<g class="chip rise" style="animation-delay:0.84s"><rect x="515" y="209" width="62" height="26" rx="13"/><text x="546.0" y="227" text-anchor="middle" class="m" font-size="13.5">Redis</text></g>
+<g class="chip rise" style="animation-delay:0.90s"><rect x="587" y="209" width="70" height="26" rx="13"/><text x="622.0" y="227" text-anchor="middle" class="m" font-size="13.5">Docker</text></g>
+<g class="chip rise" style="animation-delay:0.96s"><rect x="667" y="209" width="62" height="26" rx="13"/><text x="698.0" y="227" text-anchor="middle" class="m" font-size="13.5">Azure</text></g>
+<g class="rise" style="animation-delay:0.80s">
+  <rect x="30" y="278" width="840" height="150" rx="14" fill="url(#card)" stroke="#2c405e"/>
+  <rect class="glow" x="30" y="278" width="840" height="150" rx="14" fill="none" stroke="#7fa3cc"/>
+  <circle cx="98" cy="353.0" r="46" fill="#0b1424" stroke="#3b5272"/>
+  <g transform="translate(98,349.0)" fill="none" stroke="#cfe0f5" stroke-width="2"><path d="M-26,30 V-2 H-14 V-10 H-6 V-2 H6 V-10 H14 V-2 H26 V30 Z"/><path d="M-6,30 V16 A6,6 0 0 1 6,16 V30"/><rect x="-20" y="6" width="5" height="7" fill="#f2c46d" stroke="none" class="flicker"/><rect x="15" y="6" width="5" height="7" fill="#f2c46d" stroke="none" class="flicker" style="animation-delay:1s"/></g>
+  <text x="170" y="316" class="t" font-size="22">K2 SUITE</text>
+  <text x="348" y="316" class="k" font-size="13" letter-spacing="1">· Company ERP · 500+ employees</text>
+  <rect x="700" y="296" width="140" height="24" rx="12" fill="#2a1f0f" stroke="#f2c46d"/>
+  <text x="770.0" y="312" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#f2c46d">1 OF 2 DEVELOPERS</text>
+  <text x="170" y="344" class="b" font-size="14.5">Automated HR workflows that used to be manual: recruitment → onboarding,</text>
+  <text x="170" y="366" class="b" font-size="14.5">leave, geolocation attendance, approvals, Teams integration, OTP login.</text>
+</g>
+<g class="chip rise" style="animation-delay:1.05s"><rect x="170" y="377" width="62" height="26" rx="13"/><text x="201.0" y="395" text-anchor="middle" class="m" font-size="13.5">React</text></g>
+<g class="chip rise" style="animation-delay:1.11s"><rect x="242" y="377" width="78" height="26" rx="13"/><text x="281.0" y="395" text-anchor="middle" class="m" font-size="13.5">Node.js</text></g>
+<g class="chip rise" style="animation-delay:1.17s"><rect x="330" y="377" width="94" height="26" rx="13"/><text x="377.0" y="395" text-anchor="middle" class="m" font-size="13.5">REST APIs</text></g>
+<g class="chip rise" style="animation-delay:1.23s"><rect x="434" y="377" width="175" height="26" rx="13"/><text x="521.5" y="395" text-anchor="middle" class="m" font-size="13.5">Workflow automation</text></g>
+<g class="rise" style="animation-delay:1.25s">
+  <rect x="30" y="446" width="840" height="150" rx="14" fill="url(#card)" stroke="#2c405e"/>
+  <rect class="glow" x="30" y="446" width="840" height="150" rx="14" fill="none" stroke="#7fa3cc"/>
+  <circle cx="98" cy="521.0" r="46" fill="#0b1424" stroke="#3b5272"/>
+  <g transform="translate(98,517.0)" fill="none" stroke="#cfe0f5" stroke-width="2"><path d="M-20,-20 H16 A6,6 0 0 1 16,-8 V24 A6,6 0 0 1 10,30 H-26 A6,6 0 0 0 -20,18 Z"/><path d="M-12,-8 H8 M-12,2 H8 M-12,12 H2" stroke-width="1.5"/><circle cx="-26" cy="24" r="6"/></g>
+  <text x="170" y="484" class="t" font-size="22">COMPTRAC</text>
+  <text x="348" y="484" class="k" font-size="13" letter-spacing="1">· GRC Compliance Tracker</text>
+  <rect x="674" y="464" width="166" height="24" rx="12" fill="#2a1f0f" stroke="#f2c46d"/>
+  <text x="757.0" y="480" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#f2c46d">1 OF 2 FRONT-END DEVS</text>
+  <text x="170" y="512" class="b" font-size="14.5">Compliance platform used by SecurEyes branches as internal clients.</text>
+  <text x="170" y="534" class="b" font-size="14.5">Built the Circular Management module with a maker–checker approval flow.</text>
+</g>
+<g class="chip rise" style="animation-delay:1.50s"><rect x="170" y="545" width="70" height="26" rx="13"/><text x="205.0" y="563" text-anchor="middle" class="m" font-size="13.5">Vue.js</text></g>
+<g class="chip rise" style="animation-delay:1.56s"><rect x="250" y="545" width="78" height="26" rx="13"/><text x="289.0" y="563" text-anchor="middle" class="m" font-size="13.5">Vuetify</text></g>
+<g class="chip rise" style="animation-delay:1.62s"><rect x="338" y="545" width="78" height="26" rx="13"/><text x="377.0" y="563" text-anchor="middle" class="m" font-size="13.5">GraphQL</text></g>
+<text x="450.0" y="638" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="12.5" fill="#7d8fa6">Internal SecurEyes products — code is private; happy to walk through the architecture.</text>
+<g fill="#ffffff">
+<circle cx="515" r="1.1" opacity="0.46"><animate attributeName="cy" from="-10" to="664" dur="12.6s" begin="-1.8s" repeatCount="indefinite"/><animate attributeName="cx" values="515;527;515" dur="6.3s" repeatCount="indefinite"/></circle>
+<circle cx="410" r="2.1" opacity="0.53"><animate attributeName="cy" from="-10" to="664" dur="11.0s" begin="-2.3s" repeatCount="indefinite"/><animate attributeName="cx" values="410;422;410" dur="5.5s" repeatCount="indefinite"/></circle>
+<circle cx="294" r="2.1" opacity="0.48"><animate attributeName="cy" from="-10" to="664" dur="12.9s" begin="-12.1s" repeatCount="indefinite"/><animate attributeName="cx" values="294;306;294" dur="6.45s" repeatCount="indefinite"/></circle>
+<circle cx="435" r="2.2" opacity="0.45"><animate attributeName="cy" from="-10" to="664" dur="12.1s" begin="-5.3s" repeatCount="indefinite"/><animate attributeName="cx" values="435;447;435" dur="6.05s" repeatCount="indefinite"/></circle>
+<circle cx="94" r="1.2" opacity="0.57"><animate attributeName="cy" from="-10" to="664" dur="9.4s" begin="-3.3s" repeatCount="indefinite"/><animate attributeName="cx" values="94;106;94" dur="4.7s" repeatCount="indefinite"/></circle>
+<circle cx="613" r="1.2" opacity="0.59"><animate attributeName="cy" from="-10" to="664" dur="9.7s" begin="-2.0s" repeatCount="indefinite"/><animate attributeName="cx" values="613;625;613" dur="4.85s" repeatCount="indefinite"/></circle>
+<circle cx="634" r="1.7" opacity="0.58"><animate attributeName="cy" from="-10" to="664" dur="13.7s" begin="-9.7s" repeatCount="indefinite"/><animate attributeName="cx" values="634;646;634" dur="6.85s" repeatCount="indefinite"/></circle>
+<circle cx="642" r="1.8" opacity="0.74"><animate attributeName="cy" from="-10" to="664" dur="12.4s" begin="-6.4s" repeatCount="indefinite"/><animate attributeName="cx" values="642;654;642" dur="6.2s" repeatCount="indefinite"/></circle>
+<circle cx="706" r="2.0" opacity="0.4"><animate attributeName="cy" from="-10" to="664" dur="10.4s" begin="-5.6s" repeatCount="indefinite"/><animate attributeName="cx" values="706;718;706" dur="5.2s" repeatCount="indefinite"/></circle>
+<circle cx="659" r="1.5" opacity="0.55"><animate attributeName="cy" from="-10" to="664" dur="9.1s" begin="-13.8s" repeatCount="indefinite"/><animate attributeName="cx" values="659;671;659" dur="4.55s" repeatCount="indefinite"/></circle>
+<circle cx="122" r="1.4" opacity="0.42"><animate attributeName="cy" from="-10" to="664" dur="8.3s" begin="-0.0s" repeatCount="indefinite"/><animate attributeName="cx" values="122;134;122" dur="4.15s" repeatCount="indefinite"/></circle>
+<circle cx="113" r="2.1" opacity="0.44"><animate attributeName="cy" from="-10" to="664" dur="11.7s" begin="-1.0s" repeatCount="indefinite"/><animate attributeName="cx" values="113;125;113" dur="5.85s" repeatCount="indefinite"/></circle>
+<circle cx="395" r="1.2" opacity="0.51"><animate attributeName="cy" from="-10" to="664" dur="9.5s" begin="-4.9s" repeatCount="indefinite"/><animate attributeName="cx" values="395;407;395" dur="4.75s" repeatCount="indefinite"/></circle>
+<circle cx="135" r="1.1" opacity="0.57"><animate attributeName="cy" from="-10" to="664" dur="10.9s" begin="-13.7s" repeatCount="indefinite"/><animate attributeName="cx" values="135;147;135" dur="5.45s" repeatCount="indefinite"/></circle>
+<circle cx="329" r="1.1" opacity="0.47"><animate attributeName="cy" from="-10" to="664" dur="8.6s" begin="-4.8s" repeatCount="indefinite"/><animate attributeName="cx" values="329;341;329" dur="4.3s" repeatCount="indefinite"/></circle>
+<circle cx="858" r="1.8" opacity="0.78"><animate attributeName="cy" from="-10" to="664" dur="11.1s" begin="-2.9s" repeatCount="indefinite"/><animate attributeName="cx" values="858;870;858" dur="5.55s" repeatCount="indefinite"/></circle>
+<circle cx="380" r="1.2" opacity="0.59"><animate attributeName="cy" from="-10" to="664" dur="11.3s" begin="-0.4s" repeatCount="indefinite"/><animate attributeName="cx" values="380;392;380" dur="5.65s" repeatCount="indefinite"/></circle>
+<circle cx="668" r="2.0" opacity="0.52"><animate attributeName="cy" from="-10" to="664" dur="12.2s" begin="-3.7s" repeatCount="indefinite"/><animate attributeName="cx" values="668;680;668" dur="6.1s" repeatCount="indefinite"/></circle>
+<circle cx="181" r="1.4" opacity="0.58"><animate attributeName="cy" from="-10" to="664" dur="9.3s" begin="-7.6s" repeatCount="indefinite"/><animate attributeName="cx" values="181;193;181" dur="4.65s" repeatCount="indefinite"/></circle>
+<circle cx="661" r="1.3" opacity="0.73"><animate attributeName="cy" from="-10" to="664" dur="12.9s" begin="-13.8s" repeatCount="indefinite"/><animate attributeName="cx" values="661;673;661" dur="6.45s" repeatCount="indefinite"/></circle>
+<circle cx="835" r="1.3" opacity="0.44"><animate attributeName="cy" from="-10" to="664" dur="10.4s" begin="-11.2s" repeatCount="indefinite"/><animate attributeName="cx" values="835;847;835" dur="5.2s" repeatCount="indefinite"/></circle>
+<circle cx="514" r="1.4" opacity="0.48"><animate attributeName="cy" from="-10" to="664" dur="8.2s" begin="-0.4s" repeatCount="indefinite"/><animate attributeName="cx" values="514;526;514" dur="4.1s" repeatCount="indefinite"/></circle>
+</g>
+</svg>
