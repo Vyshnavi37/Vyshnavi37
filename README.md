@@ -38,5 +38,5 @@ I build internal products end to end — from React and Vue front ends to NestJS
 ### 📫 Reach me
 
 
-[LinkedIn](https://www.linkedin.com/in/vyshnavi-medipelli-85441a283) · vyshnavimedipelli52@gmail.com
+🌐 [Portfolio](https://vyshnavi37.github.io) · [LinkedIn](https://www.linkedin.com/in/vyshnavi-medipelli-85441a283) · vyshnavimedipelli52@gmail.com
 
